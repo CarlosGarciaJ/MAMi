@@ -1,0 +1,46 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registro Mam&aacute;s</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="../CSS/ResetCSS.css">
+    </head>
+    <body>
+        <div>
+            <form action="../../Controlador/prcFormularioMamas.jsp">
+                <table>
+                    <tr><td><label>Nombre: </label></td><td><input type="text" id="Input_Nombre" class="Input_Formulario" name="Nombre" required autofocus></td>
+                        <td><label>Apellido: </label></td><td><input type="text" id="Input_Apellido" class="Input_Formulario" name="Apellido" required></td></tr><br>
+                    <tr><td><label>Documento De identidad: </label></td><td><input type="number" id="Input_DI" class="Input_Formulario" name="DI" required></td>
+                        <td><label>Direccion: </label></td><td><input type="text" id="Input_Direccion" class="Input_Formulario" name="Direccion" required></td></tr><br>
+                    <tr><td><label>Municipio: </label></td><td><input type="text" id="Input_Municipio" class="Input_Formulario" name="Municipio" required></td>
+                        <td><label>Barrio: </label></td><td><input type="text" id="Input_Barrio" class="Input_Formulario" name="Barrio" required></td></tr><br>
+                    <tr><td><label>Telefono Fijo: </label></td><td><input type="number" id="Input_Fijo" class="Input_Formulario" name="Fijo" required></td>
+                        <td><label>Celular: </label></td><td><input type="number" id="Input_Celular" class="Input_Formulario" name="Celular" required></td></tr><br>
+                    <tr><td><label>Email: </label></td><td><input type="email" id="Input_Email" class="Input_Formulario" name="Email" required></td>
+                        <td><label>Estrato: </label></td><td><input type="number" id="Input_Estrato" class="Input_Formulario" name="Estrato" required></td></tr><br>        
+                    <tr><td><label>Sisben?</label></td><td><input type="checkbox" id="Input_Sisben" class="Input_Formulario" name="Sisben"></td>
+                        <td><label>Nivel Del Sisben: </label></td><td><input type="number" id="Input_NivelSisben" class="Input_Formulario" name="NivelSisben"></td></tr><br>
+                    <tr><td><label>EPS?</label></td><td><input type="checkbox" id="Input_EPS" class="Input_Formulario" name="EPS"></td>
+                        <td><label>Nombre EPS: </label></td><td><input type="text" id="Input_NombreEPS" class="Input_Formulario" name="NombreEPS"></td></tr><br>
+                    <tr><td><label>Nivel De Esclaridad: </label></td><td><input type="text" id="Input_NivelEscolaridad" class="Input_Formulario" name="NivelEscolaridad" required></td>
+                        <td><label>Estado Civil: </label></td><td><input type="text" id="Input_EstadoCivil" class="Input_Formulario" name="EstadoCivil" required></td></tr><br>
+                    <tr><td><label>Cabeza De Hogar?</label></td><td><input type="checkbox" id="Input_CabezaDeHogar" class="Input_Formulario" name="CabezaDeHogar"></td>
+                        <td><label>Nombre Acompa&ncaron;ante: </label></td><td><input type="text" id="Input_NombreAcom" class="Input_Formulario" name="NombreAcompa"></td>
+                        <td><label>Apellido Acompa&ncaron;ante: </label></td><td><input type="text" id="Input_ApellidoAcom" class="Input_Formulario" name="ApellidoAcompa"></td></tr><br>
+                    <tr><td><label>Parentezco Acompa&ncaron;ante: </label></td><td><input type="text" id="Input_ParentezcoAcom" class="Input_Formulario" name="ParentezcoAcompa"></td>
+                        <td><label>Celular Acompa&ncaron;ante: </label></td><td><input type="number" id="Input_CelularAcom" class="Input_Formulario" name="CelularAcompa"></td></tr><br>
+                    <tr><td><label>Gravidad Del Embaarazo: </label></td><td><input type="number" id="Input_GravidadEm" class="Input_Formulario" name="GravidadEmbarazo" required></td>
+                        <td><label>Fecha Probable De Parto: </label></td><td><input type="date" id="Input_FechaParto" class="Input_Formulario" name="FechaParto" required></td></tr><br>
+                    <tr><td><label>Nivel Riesgo Del Embarazo: </label></td><td><input type="text" id="Input_RiesgoEm" class="Input_Formulario" name="NivelRiesgoEmba" required></td>
+                        <td><label>Patologias: </label></td><td><input type="text" id="Input_Patologias" class="Input_Formulario" name="Patologias" required></td></tr><br>
+                    <tr><td colspan="4"><input type="submit" value="Enviar"></td></tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
