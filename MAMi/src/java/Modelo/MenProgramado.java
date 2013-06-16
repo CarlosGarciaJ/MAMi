@@ -8,7 +8,7 @@ package Modelo;
  *
  * @author Juan David
  */
-public class Alerta {
+public class MenProgramado {
     private int id;
     private int semana;
     private String mensaje;

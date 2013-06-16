@@ -4,12 +4,12 @@
  */
 package DAO;
 
-import Modelo.Alerta;
+import Modelo.MenProgramado;
 
 /**
  *
  * @author Juan David
  */
-public class DaoAlerta extends Alerta{
+public class DaoMenProgramado extends MenProgramado{
     
 }
