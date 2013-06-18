@@ -5,7 +5,7 @@
     if (true) {
 %>
 <script>
-    location = '../Vista/JSP/Admin.jsp';
+    location = '../Vista/JSP/RegistroMamas.html';
 </script>
 <%} else {
 %>

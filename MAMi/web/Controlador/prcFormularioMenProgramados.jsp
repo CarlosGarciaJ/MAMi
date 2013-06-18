@@ -15,13 +15,11 @@
     </head>
     <body>
         <%
-            String Id = request.getParameter("Id");
             String Semana = request.getParameter("Semana");
             String Mensaje = request.getParameter("Mensaje");
-            String Tipo = request.getParameter("Tipo");
 
             DAO.DaoMenProgramado DAO = new DaoMenProgramado();
-            if (DAO.insertar(Id, Semana, Mensaje, Tipo) == 1) {
+            if (DAO.insertar(Semana, Mensaje) == 1) {
         %>
 
         <script>
