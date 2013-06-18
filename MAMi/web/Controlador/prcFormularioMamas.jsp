@@ -4,7 +4,6 @@
     Author     : Carlos Garcia
 --%>
 
-<%@page import="Modelo.Alerta"%>
 <%@page import="DAO.DaoMama"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

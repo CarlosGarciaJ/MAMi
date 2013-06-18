@@ -20,7 +20,7 @@ public class DaoMama extends Mama {
             String CelularAcompanante, String GravidadEmbarazo, String FechaParto, String NivelRiesgoEmba, String Patologias) {
         try {
             id += 1;
-            String sql = "INSERT INTO Mamas VALUES (" + id + " , '" + NombreMama + "' ,'" + ApellidoMama + "','" + DI + "','" + Direccion + "','"
+            String sql = "INSERT INTO mamas VALUES (" + id + " , '" + NombreMama + "' ,'" + ApellidoMama + "','" + DI + "','" + Direccion + "','"
                     + Municipio + "','" + Barrio + "','" + TelefonoFijo + "','" + Celular + "','" + Correo + "','" + Estrato + "','" + Sisben + "','"
                     + NivelSisben + "','" + EPS + "','" + NombreEPS + "','" + NivelEscolaridad + "','" + EstadoCivil + "' ,'"
                     + CabezaDeHogar + "','" + NombreAcompanante + "','" + ApellidoAcompanante + "','" + ParentezcoAcompanante + "','"
@@ -38,7 +38,7 @@ public class DaoMama extends Mama {
     public int Obtener_Secuencia() {
         try {
             int id1 = 0;
-            String sql = "select count(*) from Mamas";
+            String sql = "select count(*) from mamas";
             ResultSet rs;
             if ((rs = conn.consultar(sql)).next()) {
                 id1 = Integer.parseInt(rs.getString(1));
