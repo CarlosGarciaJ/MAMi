@@ -1,0 +1,27 @@
+<!--
+    Document   : RegistroMenProgramados
+    Created on : Jun 19, 2013, 3:04:28 PM
+    Author     : Cristian David Ch.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registro Recordatorios</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="../CSS/ResetCSS.css">
+    </head>
+    <body>
+        <div>
+            <form action="../../Controlador/prcFormularioRecordatorios.jsp">
+                <table>
+                    <tr><td><label>Nombre Mam&aacute;: </label></td><td><input type="text" id="Input_NombreMama" class="Input_Formulario" name="NombreMama" required></td>
+                    <tr><td><label>Fecha Cita: </label></td><td><input type="date" id="Input_FechaCita" class="Input_Formulario" name="FechaCita" required></td>
+                    <tr><td><label>Fecha de Env&iacute;o: </label></td><td><input type="date" id="Input_FechaEnvio" class="Input_Formulario" name="FechaEnvio" required></td></tr><br>
+                    <tr><td><label>Mensaje: </label></td><td><textarea style="resize: none;" id="Input_Mensaje" class="Textarea_Formulario" name="Mensaje" required></textarea></td>
+                    <tr><td><label>Asunto: </label></td><td><input type="text" id="Input_Asunto" class="Input_Formulario" name="Asunto" required></td></tr><br>
+                    <tr><td><input type="submit" value="Enviar"></td></tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

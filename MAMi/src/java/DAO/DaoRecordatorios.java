@@ -4,12 +4,12 @@
  */
 package DAO;
 
-import Modelo.Recordatorio;
+import Modelo.Recordatorios;
 
 /**
  *
  * @author Juan David
  */
-public class DaoRecordatorio extends Recordatorio{
+public class DaoRecordatorios extends Recordatorios{
     
 }

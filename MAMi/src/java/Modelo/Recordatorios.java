@@ -8,7 +8,7 @@ package Modelo;
  *
  * @author Juan David
  */
-public class Recordatorio {
+public class Recordatorios {
     private int id;
     private int idMama;
     private String fecha;
