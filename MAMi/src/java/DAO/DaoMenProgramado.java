@@ -49,11 +49,10 @@ import java.sql.SQLException;
 public class DaoMenProgramado extends MenProgramado {
 
     Conn conn = new Conn();
-    int id;
 
     public int insertar(String Semana, String Mensaje) {
         try {
-            id += 1;
+            int id=Obtener_Secuencia();
             String sql = "INSERT INTO mensajesprogramados VALUES (" + id + " , '" + Semana + "' ,'" + Mensaje + "')";
             System.out.println("sql=" + sql);
             conn.insertar(sql);
@@ -76,6 +75,7 @@ public class DaoMenProgramado extends MenProgramado {
             return id1;
         } catch (SQLException ex) {
             System.out.println("ex = " + ex.getMessage());
+            System.out.println("error secuencia");
         }
         return 0;
     }

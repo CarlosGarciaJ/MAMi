@@ -12,7 +12,6 @@ public class MenProgramado {
     private int id;
     private int semana;
     private String mensaje;
-    private String tipo;    
 
     /**
      * @return the id
@@ -59,14 +58,4 @@ public class MenProgramado {
     /**
      * @return the tipo
      */
-    public String getTipo() {
-        return tipo;
-    }
-
-    /**
-     * @param tipo the tipo to set
-     */
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
-    }
 }
