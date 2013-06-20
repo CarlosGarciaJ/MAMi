@@ -6,15 +6,15 @@ package Modelo;
 
 /**
  *
- * @author Juan David
+ * @author Cristian David
  */
 public class Recordatorios {
     private int id;
-    private int idMama;
-    private String fecha;
+    private int idmama;
+    private String fechacita;
+    private String fechaenvio;
     private String mensaje;
-    private String tipo;
-    private boolean enviado;
+    private String asunto;
 
     /**
      * @return the id
@@ -34,28 +34,42 @@ public class Recordatorios {
      * @return the idMama
      */
     public int getIdMama() {
-        return idMama;
+        return idmama;
     }
 
     /**
-     * @param idMama the idMama to set
+     * @param IdMama the idMama to set
      */
-    public void setIdMama(int idMama) {
-        this.idMama = idMama;
+    public void setIdMama(int idmama) {
+        this.idmama = idmama;
     }
 
     /**
      * @return the fecha
      */
-    public String getFecha() {
-        return fecha;
+    public String getFechaCita() {
+        return fechacita;
     }
 
     /**
-     * @param fecha the fecha to set
+     * @param FechaCita the fecha to set
      */
-    public void setFecha(String fecha) {
-        this.fecha = fecha;
+    public void setFechaCita(String fechacita) {
+        this.fechacita = fechacita;
+    }
+       
+    /**
+     * @return the FechaEnvio
+     */
+    public String getFechaEnvio() {
+        return fechaenvio;
+    }
+    
+    /**
+     * @param FechaEnvio the fecha to set
+     */
+    public void setFechaEnvio(String fechaenvio) {
+        this.fechaenvio = fechaenvio;
     }
 
     /**
@@ -75,28 +89,14 @@ public class Recordatorios {
     /**
      * @return the tipo
      */
-    public String getTipo() {
-        return tipo;
+    public String getAsunto() {
+        return asunto;
     }
-
+    
     /**
-     * @param tipo the tipo to set
+     * @param Asunto the mensaje to set
      */
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
-    }
-
-    /**
-     * @return the enviado
-     */
-    public boolean isEnviado() {
-        return enviado;
-    }
-
-    /**
-     * @param enviado the enviado to set
-     */
-    public void setEnviado(boolean enviado) {
-        this.enviado = enviado;
+    public void setAsunto(String asunto) {
+        this.asunto = asunto;
     }
 }
